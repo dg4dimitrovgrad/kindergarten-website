@@ -185,6 +185,9 @@ export default function Documents() {
                         <h2>Състав</h2>
                         <ul>
                             <li>
+                                <a href="/files/sustav/sustav.pdf" target="_blank">Състав</a>
+                            </li>
+                            <li>
                                 <a href="/files/sustav/ustav_nastoqtelstvo.pdf" target="_blank">Вътрешни правила за защита на лични данни</a>
                             </li>
                         </ul>

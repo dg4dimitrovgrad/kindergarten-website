@@ -1,14 +1,14 @@
 import Layout from "../components/layout";
 import { Container, Row, Col } from "react-bootstrap";
 import Image from "next/image";
+import kmet from "../public/images/IMG-kmet.jpg";
 
 export default function Gallery() {
-    let imageCount = 30,
-        imageArr = [];
-    for (let i = 0; i < imageCount; i++) {
-        imageArr.push(`/gallery/gallery${i}.jpg`);
-    }
-
+  let imageCount = 54,
+    imageArr = [];
+  for (let i = imageCount; i >= 0; i--) {
+    imageArr.push(`/gallery/gallery${i}.jpg`);
+  }
 
   return (
     <Layout
@@ -27,12 +27,28 @@ export default function Gallery() {
                 </div>
               </div>
             </Col>
+            <Col sm={12} md={6}>
+              <h2 className="text-center w-75 mx-auto">24 май с кмета на Община Димитровград г-н Иво Димов!</h2>
+              <div className="w-100 image-height position-relative mb-30 rounded-3 overflow-hidden">
+                <Image
+                  src={kmet}
+                  layout="fill"
+                  objectFit="cover"
+                  alt="Снимка от албума на детската градина"
+                />
+              </div>
+            </Col>
             {imageArr.map((image, index) => (
-                <Col sm={12} md={6} key={index}>
-                    <div className="w-100 image-height position-relative mb-30 rounded-3 overflow-hidden">
-                        <Image src={image} layout="fill" alt="Снимка от албума на детската градина"/>
-                    </div>
-                </Col>
+              <Col sm={12} md={6} key={index}>
+                <div className="w-100 image-height position-relative mb-30 rounded-3 overflow-hidden">
+                  <Image
+                    src={image}
+                    layout="fill"
+                    objectFit="cover"
+                    alt="Снимка от албума на детската градина"
+                  />
+                </div>
+              </Col>
             ))}
           </Row>
         </Container>
