@@ -79,6 +79,9 @@ export default function Documents() {
                             <li>
                                 <a href="/files/biudjet/doklad_biudjet.pdf" target="_blank">Доклад за изпълнение на бюджета за 2021 година</a>
                             </li>
+                            <li>
+                                <a href="/files/biudjet/kasov_otchet.pdf" target="_blank">Касов отчет към 31.03.2022 година</a>
+                            </li>
                         </ul>
                     </Col>
                     <Col sm={12} md={4}>
@@ -186,9 +189,6 @@ export default function Documents() {
                         <ul>
                             <li>
                                 <a href="/files/sustav/sustav.pdf" target="_blank">Състав</a>
-                            </li>
-                            <li>
-                                <a href="/files/sustav/ustav_nastoqtelstvo.pdf" target="_blank">Вътрешни правила за защита на лични данни</a>
                             </li>
                         </ul>
                     </Col>
