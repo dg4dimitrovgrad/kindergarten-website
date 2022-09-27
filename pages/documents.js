@@ -85,6 +85,9 @@ export default function Documents() {
                             <li>
                                 <a href="/files/biudjet/kasov_otchet_05_2022.pdf" target="_blank">Касов отчет към 31.05.2022 година</a>
                             </li>
+                            <li>
+                                <a href="/files/biudjet/kasov_otchet_30.06.2022.pdf" target="_blank">Касов отчет към 30.06.2022 година</a>
+                            </li>
                         </ul>
                     </Col>
                     <Col sm={12} md={4}>
@@ -99,7 +102,7 @@ export default function Documents() {
                         <h2>Други документи</h2>
                         <ul>
                             <li>
-                                <a href="/files/ekipi/meri_za_povishavane.pdf" target="_blank">Мерки за повишаване на образование</a>
+                                <a href="/files/ekipi/merki_za_povishavane.pdf" target="_blank">Мерки за повишаване на образование</a>
                             </li>
                             <li>
                                 <a href="/files/ekipi/programa_ravni_vuzmojnosti.pdf" target="_blank">Програма за предоставяне на равни възможности</a>
@@ -145,12 +148,6 @@ export default function Documents() {
                             </li>
                             <li>
                                 <a href="/files/obrazci/zaqvlenie_napuskane.pdf" target="_blank">Заявление за напускане</a>
-                            </li>
-                            <li>
-                                <a href="/files/obrazci/zaqvlenie_preferencii_zaplashtane_taksa.pdf" target="_blank">За преференции при заплащане на такса за детска градина</a>
-                            </li>
-                            <li>
-                                <a href="/files/obrazci/zaqvlenie_preferencii_polzvane.pdf" target="_blank">Заявление за ползване на преференции</a>
                             </li>
                             <li>
                                 <a href="/files/obrazci/deklaraciq.pdf" target="_blank">Декларация</a>
