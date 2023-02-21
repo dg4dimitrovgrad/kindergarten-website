@@ -88,6 +88,15 @@ export default function Documents() {
                             <li>
                                 <a href="/files/biudjet/kasov_otchet_30.06.2022.pdf" target="_blank">Касов отчет към 30.06.2022 година</a>
                             </li>
+                            <li>
+                                <a href="/files/biudjet/kasov_otchet_09_2022.pdf" target="_blank">Касов отчет към 30.09.2022 година</a>
+                            </li>
+                            <li>
+                                <a href="/files/biudjet/kasov_otchet_12_2022.pdf" target="_blank">Касов отчет към 30.12.2022 година</a>
+                            </li>
+                            <li>
+                                <a href="/files/biudjet/biudjet2022.pdf" target="_blank">Бюджет 2022</a>
+                            </li>
                         </ul>
                     </Col>
                     <Col sm={12} md={4}>
