@@ -7,6 +7,8 @@ import elephant from "../public/images/elephant.png";
 import pool from "../public/images/pool.png";
 import proekt from "../public/images/proekt-apspo.JPG";
 import funSVG from "../public/images/fun.svg";
+import ploshtadka from "../public/gallery/gallery8.jpg"
+import mon from "../public/gallery/gallery14.jpg"
 
 export default function Home() {
   return (
@@ -261,29 +263,44 @@ export default function Home() {
           <Row>
             <Col sm={12} lg={6}>
               <div className="mx-auto" style={{ maxWidth: `400px` }}>
-                <Image alt="First Image" src={pool} />
+                <Image alt="First Image" src={mon} />
               </div>
               <h2 className="mt-20">
-                Национална програма „Осигуряване на съвременна образователна
-                среда“
+                ДГ4 с отлична оценка на МОН
               </h2>
               <p>
-                Детска градина № 4, е одобрена по Национална програма
-                „Осигуряване на съвременна образователна среда“ за изграждане на
-                Външна площадка по Безопасност на движението по пътищата.
-                <br />
-                С уважение
-                <br />
-                <strong>Т. Александрова</strong>
-                <br />
-                <strong>Директор на ДГ № 4</strong>
+                ДГ4 с отлична оценка на МОН по Проект  &quot;Активно приобщаване в системата на предучилищното образование!&quot;
               </p>
             </Col>
             <Col sm={12} lg={6}>
               <Row>
                 <Col
+                    sm={12}
+                    className="d-flex flex-column flex-lg-row mt-20 mt-lg-0 mb-20"
+                >
+                  <div className="rounded-3 overflow-hidden h-25" style={{ width: `230px` }}>
+                    <Image alt="First Image" src={ploshtadka} />
+                  </div>
+                  <div className="ps-lg-40" style={{ flexShrink: `2` }}>
+                    <h2>
+                      Национална програма „Осигуряване на съвременна образователна среда“
+                    </h2>
+                    <p>
+                      Детска градина № 4, е одобрена по Национална програма
+                      „Осигуряване на съвременна образователна среда“ за изграждане на
+                      Външна площадка по Безопасност на движението по пътищата.
+                      <br />
+                      С уважение
+                      <br />
+                      <strong>Т. Александрова</strong>
+                      <br />
+                      <strong>Директор на ДГ № 4</strong>
+                    </p>
+                  </div>
+                </Col>
+                <Col
                   sm={12}
-                  className="d-flex flex-column flex-lg-row ms-20 ms-lg-0"
+                  className="d-flex flex-column flex-lg-row ms-20 ms-lg-0 mb-20"
                 >
                   <div className="m-auto" style={{ maxWidth: `156px` }}>
                     <Image alt="First Image" src={proekt} />
@@ -300,23 +317,7 @@ export default function Home() {
                 </Col>
                 <Col
                   sm={12}
-                  className="d-flex flex-column flex-lg-row mt-20 mt-lg-0"
-                >
-                  <div className="m-auto" style={{ width: `230px` }}>
-                    <Image alt="First Image" src={pool} />
-                  </div>
-                  <div className="ps-lg-40" style={{ flexShrink: `2` }}>
-                    <h2>Презентация за Васил Левски</h2>
-                    <p>
-                      През месец февруари във всички сгради се представиха
-                      презентации за делото на Апостола на свободата Васил
-                      Левски. Директор и учители
-                    </p>
-                  </div>
-                </Col>
-                <Col
-                  sm={12}
-                  className="d-flex flex-column flex-lg-row mt-20 mt-lg-0"
+                  className="d-flex flex-column flex-lg-row mt-20 mt-lg-0 mb-20"
                 >
                   <div className="m-auto" style={{ width: `230px` }}>
                     <Image alt="First Image" src={elephant} />

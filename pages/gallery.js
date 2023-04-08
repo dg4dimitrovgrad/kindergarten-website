@@ -4,7 +4,7 @@ import Image from "next/image";
 import kmet from "../public/images/IMG-kmet.jpg";
 
 export default function Gallery() {
-  let imageCount = 22,
+  let imageCount = 15,
     imageArr = [];
   for (let i = imageCount; i >= 0; i--) {
     imageArr.push(`/gallery/gallery${i}.jpg`);
@@ -39,12 +39,13 @@ export default function Gallery() {
               </div>
             </Col>
             {imageArr.map((image, index) => (
-              <Col sm={12} md={6} key={index}>
+              <Col sm={12} md={6} key={index} className="mt-auto">
                 <div className="w-100 image-height position-relative mb-30 rounded-3 overflow-hidden">
                   <Image
                     src={image}
                     layout="fill"
                     objectFit="cover"
+                    objectPosition="top center"
                     alt="Снимка от албума на детската градина"
                   />
                 </div>
