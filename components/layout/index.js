@@ -16,7 +16,7 @@ export default function Layout({ children, title, description }) {
       <footer className="bg-beige p-50">
         <Container>
           <Row>
-            <Col sm={12} md={6} lg={3}>
+            <Col sm={12} md={6} lg={6}>
               <Navbar.Brand>
                 <Link href="/">
                   <a>
@@ -123,6 +123,18 @@ export default function Layout({ children, title, description }) {
                   </a>
                 </Link>
               </Navbar.Brand>
+            </Col>
+            <Col sm={12} md={6} lg={6}>
+              <div className="d-flex align-items-center justify-content-end">
+                <div>
+                  <div className="font-weight-bold">
+                    За контакти се свържете с нас на този имейл адрес:
+                  </div>
+                  <a href="mailto: info-2602047@edu.mon.bg" className="d-block">
+                    info-2602047@edu.mon.bg
+                  </a>
+                </div>
+              </div>
             </Col>
           </Row>
         </Container>
