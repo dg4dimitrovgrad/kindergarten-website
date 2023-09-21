@@ -507,9 +507,8 @@ nav {
   }
 
   a {
-    font-size: $h4-font-size;
+    text-decoration: none;
     font-weight: 600;
-    color: $warning;
 
     span {
       transition: all 0.3s ease;
