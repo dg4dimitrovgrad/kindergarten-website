@@ -80,19 +80,10 @@ export default function Documents() {
                                 <a href="/files/biudjet/doklad_biudjet.pdf" target="_blank">Доклад за изпълнение на бюджета за 2021 година</a>
                             </li>
                             <li>
-                                <a href="/files/biudjet/kasov_otchet.pdf" target="_blank">Касов отчет към 31.03.2022 година</a>
+                                <a href="/files/biudjet/kasov_otchet_03_2023.pdf" target="_blank">Касов отчет към 31.03.2023 година</a>
                             </li>
                             <li>
-                                <a href="/files/biudjet/kasov_otchet_05_2022.pdf" target="_blank">Касов отчет към 31.05.2022 година</a>
-                            </li>
-                            <li>
-                                <a href="/files/biudjet/kasov_otchet_30.06.2022.pdf" target="_blank">Касов отчет към 30.06.2022 година</a>
-                            </li>
-                            <li>
-                                <a href="/files/biudjet/kasov_otchet_09_2022.pdf" target="_blank">Касов отчет към 30.09.2022 година</a>
-                            </li>
-                            <li>
-                                <a href="/files/biudjet/kasov_otchet_12_2022.pdf" target="_blank">Касов отчет към 30.12.2022 година</a>
+                                <a href="/files/biudjet/kasov_otchet_06_2023.pdf" target="_blank">Касов отчет към 31.06.2023 година</a>
                             </li>
                             <li>
                                 <a href="/files/biudjet/biudjet2022.pdf" target="_blank">Бюджет 2022</a>
