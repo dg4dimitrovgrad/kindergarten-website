@@ -86,7 +86,7 @@ export default function Documents() {
                                 <a href="/files/biudjet/kasov_otchet_06_2023.pdf" target="_blank">Касов отчет към 31.06.2023 година</a>
                             </li>
                             <li>
-                                <a href="/files/biudjet/biudjet2022.pdf" target="_blank">Бюджет 2022</a>
+                                <a href="/files/biudjet/biudjet2023.pdf" target="_blank">Бюджет 2023</a>
                             </li>
                         </ul>
                     </Col>
@@ -95,20 +95,6 @@ export default function Documents() {
                         <ul>
                             <li>
                                 <a href="/files/ekipi/razpredelenie_personal.pdf" target="_blank">Разпределение на персонала по групи</a>
-                            </li>
-                        </ul>
-                    </Col>
-                    <Col sm={12} md={4}>
-                        <h2>Други документи</h2>
-                        <ul>
-                            <li>
-                                <a href="/files/ekipi/merki_za_povishavane.pdf" target="_blank">Мерки за повишаване на образование</a>
-                            </li>
-                            <li>
-                                <a href="/files/ekipi/programa_ravni_vuzmojnosti.pdf" target="_blank">Програма за предоставяне на равни възможности</a>
-                            </li>
-                            <li>
-                                <a href="/files/ekipi/programa_prevenciq_napuskane.pdf" target="_blank">Програма за превенция на ранното напускане на детска градина</a>
                             </li>
                         </ul>
                     </Col>
@@ -133,10 +119,10 @@ export default function Documents() {
                         <h2>Проекти и национални програми</h2>
                         <ul>
                             <li>
-                                <a href="/files/proekti/tabela_apspo_20.pdf" target="_blank">Проект `Активно приобщаване в системата на предучилищното образование`</a>
+                                <a href="/files/proekti/proekti.pdf" target="_blank">Проекти и национални програми</a>
                             </li>
                             <li>
-                                <a href="/files/proekti/proekti.pdf" target="_blank">Проекти и национални програми</a>
+                                <a href="#" target="_blank">Равен достъп до училищно образование в условията на кризи</a>
                             </li>
                         </ul>
                     </Col>
@@ -148,12 +134,6 @@ export default function Documents() {
                             </li>
                             <li>
                                 <a href="/files/obrazci/zaqvlenie_napuskane.pdf" target="_blank">Заявление за напускане</a>
-                            </li>
-                            <li>
-                                <a href="/files/obrazci/deklaraciq.pdf" target="_blank">Декларация</a>
-                            </li>
-                            <li>
-                                <a href="/files/obrazci/deklaraciq_covid.pdf" target="_blank">Декларация за COVID-19</a>
                             </li>
                             <li>
                                 <a href="/files/obrazci/lichna_zdravno_profilaktichna_karta.pdf" target="_blank">Лична здравно-профилактична карта</a>
@@ -181,14 +161,6 @@ export default function Documents() {
                         <ul>
                             <li>
                                 <a href="/files/administrativni_uslugi/gdpr.pdf" target="_blank">Вътрешни правила за защита на лични данни</a>
-                            </li>
-                        </ul>
-                    </Col>
-                    <Col sm={12} md={4}>
-                        <h2>Състав</h2>
-                        <ul>
-                            <li>
-                                <a href="/files/sustav/sustav.pdf" target="_blank">Състав</a>
                             </li>
                         </ul>
                     </Col>
