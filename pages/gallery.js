@@ -4,7 +4,7 @@ import Image from "next/image";
 import kmet from "../public/images/IMG-kmet.jpg";
 
 export default function Gallery() {
-  let imageCount = 14,
+  let imageCount = 17,
     imageArr = [];
   for (let i = imageCount; i >= 0; i--) {
     imageArr.push(`/gallery/gallery${i}.jpg`);
