@@ -48,6 +48,9 @@ export default function Documents() {
                 <li>
                   <a href="/files/organizaciq_deinost/pravila_adaptirane.pdf" target="_blank">Правила за адаптиране</a>
                 </li>
+                <li>
+                  <a href="/files/organizaciq_deinost/bdp_actual.pdf" target="_blank">План за движение по пътищата в детската градин</a>
+                </li>
               </ul>
             </Col>
             <Col sm={12} md={4}>
