@@ -74,19 +74,10 @@ export default function Documents() {
               <h2>Отчет бюджет</h2>
               <ul>
                 <li>
+                  <a href="/files/biudjet/biudjet_2024.pdf" target="_blank">Бюджет за 2024 година</a>
+                </li>
+                <li>
                   <a href="/files/biudjet/kasov_otchet_03_2024.pdf" target="_blank">Касов отчет към 31.03.2024 година</a>
-                </li>
-                <li>
-                  <a href="/files/biudjet/kasov_otchet_03_2023.pdf" target="_blank">Касов отчет към 31.03.2023 година</a>
-                </li>
-                <li>
-                  <a href="/files/biudjet/kasov_otchet_06_2023.pdf" target="_blank">Касов отчет към 31.06.2023 година</a>
-                </li>
-                <li>
-                  <a href="/files/biudjet/kasov_otchet_09_2023.pdf" target="_blank">Касов отчет към 31.09.2023 година</a>
-                </li>
-                <li>
-                  <a href="/files/biudjet/biudjet2023.pdf" target="_blank">Бюджет 2023</a>
                 </li>
               </ul>
             </Col>

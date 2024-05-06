@@ -5,6 +5,8 @@ import { Container, Row, Col } from "react-bootstrap";
 import the_one from "../public/images/TheOne.png";
 import elephant from "../public/images/elephant.png";
 import pool from "../public/images/pool.png";
+import nagrada1 from "../public/images/nagrada1.jpg";
+import nagrada2 from "../public/images/nagrada2.jpg";
 import proekt from "../public/images/proekt-apspo.JPG";
 import funSVG from "../public/images/fun.svg";
 import ploshtadka from "../public/gallery/gallery8.jpg"
@@ -320,13 +322,27 @@ export default function Home() {
                   className="d-flex flex-column flex-lg-row mt-20 mt-lg-0 mb-20"
                 >
                   <div className="m-auto" style={{ width: `230px` }}>
-                    <Image alt="First Image" src={elephant} />
+                    <Image alt="First Image" src={nagrada1} />
                   </div>
                   <div className="ps-lg-40" style={{ flexShrink: `2` }}>
                     <h2>Спечелена награда</h2>
                     <p>
-                      Детска градина №4 спечели още една интерактивна дъска по
-                      национална програма `ИКТ`
+                      Директорът на ДГ4, Тонка Александрова, наградена от РУО гр.Хасково с високо отличие.
+                    </p>
+                  </div>
+                </Col>
+
+                <Col
+                  sm={12}
+                  className="d-flex flex-column flex-lg-row mt-20 mt-lg-0 mb-20"
+                >
+                  <div className="m-auto" style={{ width: `230px` }}>
+                    <Image alt="First Image" src={nagrada2} />
+                  </div>
+                  <div className="ps-lg-40" style={{ flexShrink: `2` }}>
+                    <h2>Спечелена награда</h2>
+                    <p>
+                      ДГ4 наградена с "Шанс" като институция с най-висок рейтинг
                     </p>
                   </div>
                 </Col>
