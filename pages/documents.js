@@ -79,6 +79,9 @@ export default function Documents() {
                 <li>
                   <a href="/files/biudjet/kasov_otchet_03_2024.pdf" target="_blank">Касов отчет към 31.03.2024 година</a>
                 </li>
+                <li>
+                  <a href="/files/biudjet/doklad_proekt_raven_dostap.pdf" target="_blank">Доклад по проект Равен Достъп</a>
+                </li>
               </ul>
             </Col>
             <Col sm={12} md={4}>
