@@ -14,13 +14,10 @@ export default function Documents() {
               <h2>Обществен съвет</h2>
               <ul>
                 <li>
-                  <a href="/files/obshtestven_suvet/pravilnik_deinost.pdf" taraet="_blank">Правилник за дейността на ОС</a>
+                  <a href="/files/obshtestven_suvet/pravilnik_chlenove.pdf" taraet="_blank">Правилник за дейността и членове</a>
                 </li>
                 <li>
                   <a href="/files/obshtestven_suvet/otchet_deinost.pdf" target="_blank">Отчет за дейността на ОС</a>
-                </li>
-                <li>
-                  <a href="/files/obshtestven_suvet/chlenove_os.pdf" target="_blank">Членове на ОС</a>
                 </li>
               </ul>
             </Col>
@@ -51,6 +48,13 @@ export default function Documents() {
                 <li>
                   <a href="/files/organizaciq_deinost/bdp_actual.pdf" target="_blank">План за движение по пътищата в детската градин</a>
                 </li>
+                <li>
+                  <a href="/files/organizaciq_deinost/programna_sistema.pdf" target="_blank">Програмна Система</a>
+                </li>
+                <li>
+                  <a href="/files/organizaciq_deinost/plan_strategiq.pdf" target="_blank">План за действие към стратегия</a>
+                </li>
+
               </ul>
             </Col>
             <Col sm={12} md={4}>
@@ -79,6 +83,13 @@ export default function Documents() {
                 <li>
                   <a href="/files/biudjet/kasov_otchet_03_2024.pdf" target="_blank">Касов отчет към 31.03.2024 година</a>
                 </li>
+                <li>
+                  <a href="/files/biudjet/kasov_otchet_06_2024.pdf" target="_blank">Касов отчет към 30.06.2024 година</a>
+                </li>
+                <li>
+                  <a href="/files/biudjet/kasov_otchet_09_2024.pdf" target="_blank">Касов отчет към 30.09.2024 година</a>
+                </li>
+
                 <li>
                   <a href="/files/biudjet/doklad_proekt_raven_dostap.pdf" target="_blank">Доклад по проект Равен Достъп</a>
                 </li>
@@ -114,6 +125,9 @@ export default function Documents() {
               <ul>
                 <li>
                   <a href="/files/proekti/proekti.pdf" target="_blank">Проекти и национални програми</a>
+                </li>
+                <li>
+                  <a href="/files/proekti/proekti_24.pdf" target="_blank">Проекти и национални програми 2024г.</a>
                 </li>
                 <li>
                   <a href="#" target="_blank">Равен достъп до училищно образование в условията на кризи</a>
